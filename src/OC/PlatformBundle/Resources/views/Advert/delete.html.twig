@@ -1,0 +1,22 @@
+{% extends "OCPlatformBundle::layout.html.twig" %}
+
+{% block title %}
+    Effacer une annonce - {{ parent() }}
+{% endblock %}
+
+{% block ocplatform_body %}
+
+    <h2>Effacer une annonce</h2>
+
+    <p>
+        Vous Effacez une nouvelle annonce
+    </p>
+
+    <p>
+        <a href="{{ path('oc_platform_home') }}" class="btn btn-default">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Retour à l'accueil
+        </a>
+    </p>
+
+{% endblock %}
